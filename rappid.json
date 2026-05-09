@@ -1,0 +1,19 @@
+{
+  "schema": "rapp-rappid/2.0",
+  "rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+  "kind": "neighborhood",
+  "name": "microsoft-se-team-neighborhood",
+  "display_name": "Microsoft SE Team",
+  "github": "https://github.com/kody-w/microsoft-se-team-neighborhood",
+  "url": "https://kody-w.github.io/microsoft-se-team-neighborhood/",
+  "parent_rappid": null,
+  "parent_repo": "https://github.com/kody-w/RAPP",
+  "private_companion": {
+    "repo": "https://github.com/kody-w/microsoft-se-team-neighborhood-private",
+    "rappid": "rappid:v2:workspace:@kody-w/microsoft-se-team-neighborhood-private:msseprivworkspace202605a7b3c12d8@github.com/kody-w/microsoft-se-team-neighborhood-private",
+    "_note": "Team work happens here. Membership is GitHub collaborator status on this private repo."
+  },
+  "planted_by": "kody-w",
+  "planted_at": "2026-05-09T18:43:41Z",
+  "kernel_version": "0.6.0"
+}
