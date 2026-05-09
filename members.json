@@ -1,0 +1,17 @@
+{
+  "schema": "rapp-neighborhood-members/1.0",
+  "neighborhood": "kody-w/microsoft-se-team-neighborhood",
+  "updated_at": "2026-05-09T18:43:41Z",
+  "open_to_anyone": false,
+  "join_path": "request_issue \u2192 operator approval \u2192 collaborator add on private companion",
+  "members": [
+    {
+      "rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+      "github": "kody-w",
+      "role": "operator",
+      "joined_at": "2026-05-09T18:43:41Z",
+      "_note": "The operator who planted this neighborhood. Adds new members on request."
+    }
+  ],
+  "_member_verification": "Membership is GitHub collaborator status on the private companion repo \u2014 fetched live by vbrainstem / heimdall when verifying."
+}
