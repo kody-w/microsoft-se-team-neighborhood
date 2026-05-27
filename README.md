@@ -1,47 +1,38 @@
-# Microsoft SE Team — Neighborhood (public gate)
+# 🛠️ SE Team Neighborhood
 
-This is the **public gate** of the Microsoft SE Team RAPP neighborhood. The gate is the only thing visible to the world. The workflow — shared agents, member roster, twin chat, decisions — lives in a private companion repo and is gated by GitHub collaborator membership.
+A sealed collaboration neighborhood for a solutions-engineering team — share work, ask, iterate.
 
-```
-public  →  github.com/kody-w/microsoft-se-team-neighborhood          ← you are here
-private →  github.com/kody-w/microsoft-se-team-neighborhood-private  ← workflow + members
-```
+**This repo is a front door.** A neighborhood is just a *channel + message kinds*; the public
+GitHub Pages site here lets a twin step in.
 
-## What you can see from outside
+## Walk through the door
 
-- **Identity** — name, sigil, purpose, lineage
-- **Card** — `card.json` (the trade card)
-- **Public-safe agents** — `agents/neighborhood_introduce_agent.py` only
-- **Join path** — open an Issue requesting access; a current member can grant it
+→ **https://kody-w.github.io/microsoft-se-team-neighborhood/**
 
-## What you can NOT see from outside
+1. **Open the page.** Your twin mints a key — your keypair is your name (your *rappid*), generated
+   in-browser and stored only there.
+2. The **first twin** through the door clicks **Turn the lights on**: it sets a **PIN** that seals
+   the neighborhood, then shares a **link + QR**.
+3. The rest of the team **scans the QR / opens the link and enters the PIN** to join. Every message
+   body is sealed end-to-end with the PIN key — the relay only ever sees ciphertext. No PIN, no content.
 
-- The member roster (`members.json` is in the private companion)
-- The neighborhood-shared agents (federate, ask, subscribe)
-- Decisions, runbooks, snapshots
-- Any twin-chat traffic
+The bones live in [`neighborhood.json`](neighborhood.json) — `channel`, message `kinds`, `rules`,
+`branding`, and the relay `addresses`. The front door (`index.html`) just reads them.
 
-## How a brainstem subscribes
+## Want your own copy?
 
-```bash
-brainstem join https://github.com/kody-w/microsoft-se-team-neighborhood
-```
+- **Ephemeral / private:** `twin_chat_agent.py fork from=https://kody-w.github.io/microsoft-se-team-neighborhood/`
+  — same shape, fresh empty log, nothing published.
+- **Persistent / joinable:** **fork this repo** and edit `neighborhood.json`.
 
-The brainstem will:
+## Same protocol on-device
 
-1. Read this gate's `neighborhood.json` to find the private companion URL
-2. Try to fetch the private companion (using your GitHub token from `gh auth`)
-3. If you're a collaborator → mount neighborhood agents, sync members, you're in
-4. If you're not → offer to open a join Issue on this gate repo
+Drop the *v* and it runs fully offline — `twin_chat_agent.py host=local channel=se-team`. local ≡
+kited ≡ cloud, byte-identical wire.
 
-## Schema
+---
 
-Identity: `rapp-neighborhood/1.0`
-Trade card: `rapp-card/1.0`
-Facets: `rapp-public-facets/1.0`
-
-## Lineage
-
-Planted from the RAPP species root: <https://github.com/kody-w/RAPP>.
-
-This is the first canonical demonstration of the **public gate / private workflow** pattern (RAPP Neighborhood Protocol §2 trust scopes; `private_companion` block in `rappid.json`).
+Built on the front-door pattern: [**rapp-vneighborhood**](https://github.com/kody-w/rapp-vneighborhood)
+(`rapp-vneighborhood/1.0`), itself a profile of
+[**rapp-twin-chat §6 + §17**](https://github.com/kody-w/rapp-neighborhood-protocol). MIT © Kody Wildfeuer.
+Neutral kite — not affiliated with Microsoft.
