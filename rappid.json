@@ -1,12 +1,12 @@
 {
   "schema": "rapp-rappid/2.0",
-  "rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+  "rappid": "rappid:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581",
   "kind": "neighborhood",
   "name": "microsoft-se-team-neighborhood",
   "display_name": "Microsoft SE Team",
   "github": "https://github.com/kody-w/microsoft-se-team-neighborhood",
   "url": "https://kody-w.github.io/microsoft-se-team-neighborhood/",
-  "parent_rappid": "rappid:v2:operator:@kody-w/kody-twin:91d006ca7bd052bfa5021d623122012f@github.com/kody-w/kody-twin",
+  "parent_rappid": "rappid:@kody-w/kody-twin:91d006ca7bd052bfa5021d623122012f",
   "parent_repo": "https://github.com/kody-w/RAPP",
   "private_companion": {
     "repo": "https://github.com/kody-w/microsoft-se-team-neighborhood-private",
@@ -16,5 +16,6 @@
   "planted_by": "kody-w",
   "planted_at": "2026-05-09T18:43:41Z",
   "kernel_version": "0.6.0",
-  "_backfill_reason_parent": "Article XLVI.6 \u2014 parent_rappid for rebuild"
+  "_backfill_reason_parent": "Article XLVI.6 \u2014 parent_rappid for rebuild",
+  "_migrated_from": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood"
 }
