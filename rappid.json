@@ -10,7 +10,7 @@
   "parent_repo": "https://github.com/kody-w/RAPP",
   "private_companion": {
     "repo": "https://github.com/kody-w/microsoft-se-team-neighborhood-private",
-    "rappid": "rappid:v2:workspace:@kody-w/microsoft-se-team-neighborhood-private:msseprivworkspace202605a7b3c12d8@github.com/kody-w/microsoft-se-team-neighborhood-private",
+    "rappid": "rappid:@kody-w/microsoft-se-team-neighborhood-private:msseprivworkspace202605a7b3c12d8",
     "_note": "Team work happens here. Membership is GitHub collaborator status on this private repo."
   },
   "planted_by": "kody-w",
