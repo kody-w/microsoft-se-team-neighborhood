@@ -52,7 +52,7 @@
     "quality_tier": "community",
     "license": "PolyForm-Small-Business",
     "kind": "neighborhood",
-    "rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+    "rappid": "rappid:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581",
     "gate_url": "https://kody-w.github.io/microsoft-se-team-neighborhood/",
     "summon_url": "https://kody-w.github.io/RAPPcards/#summon&seed=13010230616013975830",
     "_compliance": "rappcards/1.1.2 \u2014 kody-w/RAPPcards/SPEC.md"

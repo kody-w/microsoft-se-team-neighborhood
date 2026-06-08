@@ -6,7 +6,7 @@
   "join_path": "request_issue \u2192 operator approval \u2192 collaborator add on private companion",
   "members": [
     {
-      "rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+      "rappid": "rappid:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581",
       "github": "kody-w",
       "role": "operator",
       "joined_at": "2026-05-09T18:43:41Z",

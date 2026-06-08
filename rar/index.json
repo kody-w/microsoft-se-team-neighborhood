@@ -1,6 +1,6 @@
 {
   "schema": "rapp-rar-index/1.0",
-  "neighborhood_rappid": "rappid:v2:neighborhood:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581@github.com/kody-w/microsoft-se-team-neighborhood",
+  "neighborhood_rappid": "rappid:@kody-w/microsoft-se-team-neighborhood:869ea057475547ec80df54551ecf8581",
   "name": "microsoft-se-team-neighborhood-rar",
   "version": "1.0.0",
   "agents": [],
