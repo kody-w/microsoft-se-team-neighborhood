@@ -1,5 +1,9 @@
 # 🛠️ SE Team Neighborhood
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/microsoft-se-team-neighborhood.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/microsoft-se-team-neighborhood.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 A sealed collaboration neighborhood for a solutions-engineering team — share work, ask, iterate.
 
 **This repo is a front door.** A neighborhood is just a *channel + message kinds*; the public
